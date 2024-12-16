@@ -5,6 +5,12 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Titre de l'application
+st.set_page_config(
+    page_title="Mon Application Streamlit",  
+    page_icon="📊",  
+    layout="wide" 
+)
+
 st.title("Exploration Interactive des Données avec Streamlit")
 
 # Étape 1 : Charger une base de données
